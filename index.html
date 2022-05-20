@@ -37,23 +37,23 @@
 <meta name="author" content="子沉官方网站,ZiChen Official Website">
 <!--禁用F12-->
 <script>
-	//按键触发
+//按键触发
 document.onkeydown = function(){
     //禁止 F12
-    if (window.event && window.event.keyCode == 123) {
-    event.keyCode = 0;
-    event.returnValue = false;
-    }
-    }
+  if (window.event && window.event.keyCode == 123) {
+  event.keyCode = 0;
+  event.returnValue = false;
+  }
+  }
 </script>
 <!--禁用CTRL+U查看源代码-->
 <script>
-	//按键触发
+//按键触发
 document.onkeydown = function(){
     //禁止ctrl+u
-    if (event.ctrlKey && window.event.keyCode==85){
-    return false;
-    }
-    }
+  if (event.ctrlKey && window.event.keyCode==85){
+  return false;
+  }
+  }
 </script>
 </body>
