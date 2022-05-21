@@ -42,10 +42,6 @@
     document.body.onselectstart = function() {
     self.event.returnValue=false
 };
-    //网站禁止右键
-    document.body.oncontextmenu = function() {
-    self.event.returnValue=false
-};
 	//按键触发
 document.onkeydown = function(){
     //禁止 F12
