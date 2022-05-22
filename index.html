@@ -2,7 +2,7 @@
 <head>
 <meta charset="utf-8">
 <!--设置网页颜色-->
-<body style="background-color:black;">
+<body style="background-color:black">
 <title>子沉ZiChen</title>
 </head>
 <body>
@@ -14,7 +14,9 @@
 
 <p style="color:white">这里是子沉官方网站</p>
 <p style="color:white">This is ZiChen official website</p>
-<p style="color:white">您可以在以下的网站找到我们</p>
+<p style="color:red">注意:我们是一个技术组织</p>
+<p style="color:red">Notice:We are a tech organization</p>
+<p style="color:white">您可以在以下网站上找到我们</p>
 <p style="color:white">You can find us at the following website</p>
 
 <ul>
@@ -23,7 +25,7 @@
   <li> <a href="https://github.com/ZiChenStudio/" target="_blank">Github</a> </li>
 </ul>
 
-<p style="color:white" style="background-color:white;">下面是(子沉)独立制作的软件</p>
+<p style="color:white" style="background-color:white;">以下为子沉自主制作的软件</p>
 <p style="color:white">The following is the software independently produced by ZiChen</p>
 
 <ul>
@@ -40,7 +42,6 @@
     document.body.onselectstart = function() {
     self.event.returnValue=false
 };
-	//按键触发
 document.onkeydown = function(){
     //禁止 F12
     if (window.event && window.event.keyCode == 123) {
@@ -48,7 +49,6 @@ document.onkeydown = function(){
     event.returnValue = false;
     }
     }
-	//按键触发
 document.onkeydown = function(){
     //禁止ctrl+u
     if (event.ctrlKey && window.event.keyCode==85){
